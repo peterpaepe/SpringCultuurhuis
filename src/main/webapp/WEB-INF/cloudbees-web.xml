@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<cloudbees-web-app xmlns="http://www.cloudbees.com/xml/webapp/1">
+	<!-- Database resource -->
+	<resource name="jdbc/cultuurhuissv" auth="Container" type="javax.sql.DataSource">
+		<param name="username" value="stijnv" />
+		<param name="password" value="vdab" />
+		<param name="url"
+			value="jdbc:cloudbees://cultuurhuissv" />
+		<param name="validationQuery" value="SELECT 1" />
+		<param name="testOnBorrow" value="true" />
+	</resource>
+</cloudbees-web-app>
